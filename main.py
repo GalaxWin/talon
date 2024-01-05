@@ -8,16 +8,16 @@ import random
 timezone = pytz.timezone('America/Sao_Paulo')
 
 token = '6685045831:AAGf9AwyO1U08O90otaWvh6VPmcXr4L9jeo'  
-chat_id = '-1002037182328' 
+chat_id = '-1001919591814' 
 
 bot = telebot.TeleBot(token)
 
 # Lista com os títulos disponíveis
 titulos = [
-  '🐯 <a href="https://galaxwin.bet?c=Kanibal">FORTUNE TIGER</a>',
-  '🐮 <a href="https://galaxwin.bet?c=Kanibal">FORTUNE OX</a>',
-  '🐭 <a href="https://galaxwin.bet?c=Kanibal">FORTUNE MOUSE</a>',
-  '🐰 <a href="https://galaxwin.bet?c=Kanibal">FORTUNE RABITT</a>',
+  '🐯 <a href="https://xpbet365.com/?c=adryanelias2">FORTUNE TIGER</a>',
+  '🐮 <a href="https://xpbet365.com/?c=adryanelias2">FORTUNE OX</a>',
+  '🐭 <a href="https://xpbet365.com/?c=adryanelias2">FORTUNE MOUSE</a>',
+  '🐰 <a href="https://xpbet365.com/?c=adryanelias2">FORTUNE RABITT</a>',
   
 ]
 
@@ -47,7 +47,7 @@ while True:
 👉 <b>{nu1}x Normal</b>
 ⚡️ <b>{nu2}x Turbo</b>
 🚥 <b>Intercalando</b>
-🔗<a href="https://galaxwin.bet?c=Kanibal"><b>CADASTRE-SE & JOGUE!!!</b></a>'''
+🔗<a href="https://xpbet365.com/?c=adryanelias2"><b>CADASTRE-SE & JOGUE!!!</b></a>'''
 
     bot.send_message(chat_id=chat_id,
                      text=entrada,
